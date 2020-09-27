@@ -1,3 +1,4 @@
+//On reload of the page both dice will change
 //Selecting all the required elements and classes and assigning them to variables
 let img1 = document.querySelector('.img1');
 let img2 = document.querySelector('.img2');
@@ -16,7 +17,6 @@ img1.setAttribute('src', count);
 let dice2 = Math.random()*6;
 dice2 = Math.floor(dice2)+1;
 count2 = `images/dice${dice2}.png`;
-
 img2.setAttribute('src', count2);
 
 
